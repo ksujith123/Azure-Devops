@@ -1,0 +1,30 @@
+Virtual Machines Backup
+
+Create time options
+- Enable backup Policy + RSV(Recovery services vault)
+
+RSV = Place where your backup is stored = default vault
+
+RSV [Dev, Test, Prod]Vault Stratgey
+
+Policy=When to take time, Single vs Multiple backups
+       Standard Policy vs Enhanced Policy     vs Continuous Backup (missing)(extra tools)
+       - Single           - Multiple backups     - 24x7 CDS
+                          - Default setting
+
+Netbackup
+Backupexec
+
+On-demand backup vs Schdeduled Backup (11 PM IST)
+
+Every VM Backup does 2 things one by one
+1. Take Snapshot
+2. Transfer data to vault
+
+Instant restore
+Retain instant recovery snapshot(s) for 2 day(s)     40 mins
+- Snapshot kept in the Local Storage Server (2 days) ------ RSV(30 Days)
+
+2 mins
+                                                    40 mins
+- Snapshot ------------------------------------------------ Remote Storage Server Clusters (30 Days)

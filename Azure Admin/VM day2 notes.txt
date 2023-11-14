@@ -1,0 +1,51 @@
+Create the VM
+- Boot diagnostics
+- Microsoft Defender "Microsoft Defender for Cloud" 360 degree of Azure"
+	- - Enable Defender per subscription
+	- - "Log Analytics" agent will be automatically installed on all the virtual machines in selected subscription.
+	- - Azure stores all logs for 90 days, If you want to store permamnently until the project is completed or
+	- - Example: Healthcare Regulation called HIPAA mandates 6 yr log preservation
+- Backup configuration (if req = Dev/Test, but MANDATORY for Prod)
+- Update Management (Active Hours) (Auto updates)
+- Machines Insights Monitoring (VM Insights)
+- High availability (Prod) 
+- Alerts
+
+Server1 (www.netflix.com)
+
+			Azure Load Balancer 
+                        (www.netflix.com) (Algorithm: Round Robin)(Load)
+
+Server2 (www.netflix.com) (AirTel > India > Hyderabad > 182.79.164.140
+
+
+
+
+Explain VMs:
+We have workload environment called "Dev/Test" & "Prod"
+
+-------------------
+https://ipv6-c002-bpm001-bhartiairtel-isp.1.oca.nflxvideo.net/range/4096-36573?o=1&v=155&e=1689960552&t=VKHq7lCQCO8GNnUtOM3gfqZ-RqPaBjDIO5j17qCa_8eWldYP5carWCgLNlcbPD5XnYqa3To05M_ikA55SnkvGNsqSmCwGUbn5B3ItuIFDiKTYB-vDoPLxOZwltthkLh-A4Xew6MU2qu1KZ-UkKgC-QX-m5oMqHpSotPghIm_T7nznogD93beaBPfxhL1N7nfzackDX8jsARwZCyMl5F1PcCkEzMPXjc233FzVWzizVv9iCPllNeRYwrSQyf1KAO3bdicZno-pXz0m4M
+
+
+High Availability:
+- ALB
+- Auto Scaling: Scale set
+  Min Servers you have to run = 2 = DESIRED COUNT
+
+- 1      Server in one data center
+- 2nd in second data center
+
+Scale up
+CPU Load > 40% for 15 minutes (AUTO SCALE by 10 numbers) = 12
+CPU Load > 50% for 15 minutes (AUTO SCALE by 100 numbers) = 112
+CPU Load > 70% for 15 minutes (AUTO SCALE by 100 numbers) = 212
+CPU Load > 80% for 15 minutes (AUTO SCALE by 1000 numbers) = 1212
+
+Scale down
+x 1000
+x 100
+x 100
+x 10
+
+2

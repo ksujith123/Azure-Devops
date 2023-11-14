@@ -1,0 +1,51 @@
+Identity Management
+
+-Azure Active Directory
+ 
+"Digital Identity"
+- Tell Who you are
+
+(Publish a Domain: teachmycloud.com (Primary), cloudcxsoft.com (Secondary domain)
+
+(Format): LOG IN NAMES
+- User Name   -------------------------srinivas@teachmycloud.com, srinivas@
+
+e-Comm, Sellers over Internet, OTT
+- Mobile
+- Email       -------------------------srinivas@teachmycloud.com
+- Biometric
+- Access Cards
+
+"Authentication"
+- Mechanism
+- Prove Who are you
+
+How to Prove?
+Verification Methods = Authentication Methods
+-pwd
+-code
+-OTP
+-SMS
+-Bio: Finger, Face, Retina, Sweat, Palm
+
+Authentication Provider
+- Who ever maintains a Database of your Digital Identities
+
+------------------------------------------------------------------------------
+Enterprise Login:Federation is a group of companies trusting each other
+
+SINGLE SIGN ON: + TRUSTING OTHER AUTH PROVIDERS
+
+aha.video:
+- facebook
+- twitter
+- gmail
+- outlook
+- apple
+- instagram
+
+SAML
+OpenID Connect
+
+
+Oracle DB-SQL Inject

@@ -1,0 +1,20 @@
+Windows 7/8/10/11 Windows Powershell
+
+Modules:
+- Azure RM Module (deprecated)
+- Azure PowerShell Module = Az (Independent Sub Modules)
+- CLI Module
+- AzureAD
+
+Windows 10 (Chrome)------------------------------https://portal.azure.com
+                                                 Azure End Point
+						 Web Endpoint
+						 https://portal.azure.com/./VirtualMachines
+						 https://portal.azure.com/./VirtualNetworks
+
+
+Windows 10 (PS)---------------------------------API Edpoint
+code, script, command
+                                                 https://management.azure.com
+
+----------------------------------------------------------------------------
